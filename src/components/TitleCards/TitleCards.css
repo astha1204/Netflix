@@ -1,0 +1,54 @@
+.titlemain{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.card-list .card img{
+    width:240px;
+}
+/* screen pe hee scrollable and neeche wali hide */
+.card-list{
+    overflow-x: scroll;
+}
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+/* shift press kkrrke hee scroll ab normally kese */
+
+.card-list .card p{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width:800px) {
+    .titlemain{
+        margin-top: 20px;
+        margin-bottom: 0
+        ;
+       
+    }
+    .titlemain h2{
+        font-size: 20px;
+    }
+    .card-list .image{
+        width:100px;
+    }
+    .card-list p{
+        font-size: 12px;
+    }
+
+    
+}
+@media (max-width:500px) {
+  
+    .titlemain h2{
+        font-size: 15px;
+    }
+    .card-list .image{
+        width:160px;
+    }
+    .card-list p{
+        font-size: 10px;
+    }
+
+    
+}
