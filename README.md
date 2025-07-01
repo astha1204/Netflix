@@ -1,12 +1,55 @@
-# React + Vite
+# 🎬 Netflix Clone - Streaming Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-featured **Netflix Clone** built with **React** and **Firebase**, providing a seamless video streaming experience. Users can sign up, log in, browse movie categories, and view trailers — all in a responsive and visually appealing UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React, React Router, Tailwind CSS
+- **Authentication**: Firebase Authentication
+- **Database & Hosting**: Firebase Firestore & Firebase Hosting
+- **Media Data**: TMDB (The Movie Database) API
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+- 🔐 User Sign Up / Login / Logout (Firebase Auth)
+- 🏠 Home Page with Hero Banner and Movie Categories
+- 🎞️ Watch Trailers and Movie Details
+- ⭐ Save Favorites (for logged-in users)
+- 📱 Responsive design for all devices
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/astha1204/netflix-clone.git
+cd netflix-clone
+npm install
+
+Now create a .env file in the root directory and add your Firebase and TMDB credentials:
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+VITE_TMDB_API_KEY=your_tmdb_api_key
+
+npm run dev
+Visit the app at:
+📍 http://localhost:5173
+
+💡 Future Enhancements
+🔎 Add search functionality
+📺 Continue watching/resume playback
+🌓 Dark/light theme toggle
+👥 Profile management for multiple users
+🎯 Genre filter and recommendation engine
+
